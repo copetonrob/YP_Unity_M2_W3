@@ -5,6 +5,7 @@ using UnityEngine;
 public class Webinar3Task2 : MonoBehaviour
 {
     public float Speed = 3f;
+	
     private void Update()
     {
         float horizontal = Input.GetAxis("Horizontal");

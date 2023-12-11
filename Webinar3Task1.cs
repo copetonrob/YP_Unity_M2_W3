@@ -4,8 +4,8 @@ using UnityEngine;
 
 public class Webinar3Task1 : MonoBehaviour
 {
-    [SerializeField] Light _light;
-    [SerializeField] MeshRenderer _meshRenderer;
+    public Light _light;
+    public MeshRenderer _meshRenderer;
 
     Color _color;
     float _timer = 0;
