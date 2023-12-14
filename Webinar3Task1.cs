@@ -4,8 +4,8 @@ using UnityEngine;
 
 public class Webinar3Task1 : MonoBehaviour
 {
-    public Light _light;
-    public MeshRenderer _meshRenderer;
+    public Light Light;
+    public MeshRenderer MeshRenderer;
 
     Color _color;
     float _timer = 0;
@@ -31,7 +31,7 @@ public class Webinar3Task1 : MonoBehaviour
             _color = new Color(0, 0, 1);
         }
 
-        _light.color = _color;
-        _meshRenderer.material.SetColor("_EmissionColor", _color);
+        Light.color = _color;
+        MeshRenderer.material.SetColor("_EmissionColor", _color);
     }
 }
